@@ -1,0 +1,23 @@
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,7.0.2*
+G04 #@! TF.CreationDate,2023-08-30T10:56:08+01:00*
+G04 #@! TF.ProjectId,Air quality project,41697220-7175-4616-9c69-74792070726f,rev?*
+G04 #@! TF.SameCoordinates,Original*
+G04 #@! TF.FileFunction,Profile,NP*
+%FSLAX45Y45*%
+G04 Gerber Fmt 4.5, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 7.0.2) date 2023-08-30 10:56:08*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+G04 #@! TA.AperFunction,Profile*
+%ADD10C,0.100000*%
+G04 #@! TD*
+G04 APERTURE END LIST*
+D10*
+X2000000Y-2000000D02*
+X26650000Y-2000000D01*
+X26650000Y-19450000D01*
+X2000000Y-19450000D01*
+X2000000Y-2000000D01*
+M02*

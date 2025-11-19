@@ -1,0 +1,1005 @@
+ (routes 
+  (resolution um 1000)
+  (parser
+  )
+  (structure_out
+   (layer F.CU (type signal)
+   )
+   (layer B.CU (type signal)
+   )
+  )
+  (library_out
+   (padstack "Via[0-1]_800:400_um"
+    (shape (circ F.CU 800000 0 0))
+    (shape (circ B.CU 800000 0 0))
+   )
+  )
+  (network_out
+   (Net /LabJack_Connector/PWR 
+   )
+   (Net GND 
+   )
+   (Net /EEPROM/4.5V 
+   )
+   (Net /LabJack_Connector/VREG 
+   )
+   (Net "Net-(C4_1-Pad1)" 
+   )
+   (Net "Net-(C4_1-Pad2)" 
+   )
+   (Net "Net-(C4_2-Pad1)" 
+   )
+   (Net "Net-(C4_2-Pad2)" 
+   )
+   (Net "Net-(C4_3-Pad1)" 
+   )
+   (Net "Net-(C4_3-Pad2)" 
+   )
+   (Net "Net-(C4_4-Pad1)" 
+   )
+   (Net "Net-(C4_4-Pad2)" 
+   )
+   (Net "Net-(C4_5-Pad1)" 
+   )
+   (Net "Net-(C4_5-Pad2)" 
+   )
+   (Net "Net-(C4_6-Pad1)" 
+   )
+   (Net "Net-(C4_6-Pad2)" 
+   )
+   (Net "Net-(C4_7-Pad1)" 
+   )
+   (Net "Net-(C4_7-Pad2)" 
+   )
+   (Net "Net-(C4_8-Pad1)" 
+   )
+   (Net "Net-(C4_8-Pad2)" 
+   )
+   (Net "Net-(C4_9-Pad1)" 
+   )
+   (Net "Net-(C4_9-Pad2)" 
+   )
+   (Net "Net-(C4_10-Pad1)" 
+   )
+   (Net "Net-(C4_10-Pad2)" 
+   )
+   (Net "Net-(C4_11-Pad1)" 
+   )
+   (Net "Net-(C4_11-Pad2)" 
+   )
+   (Net "Net-(C4_12-Pad1)" 
+   )
+   (Net "Net-(C4_12-Pad2)" 
+   )
+   (Net "Net-(C4_13-Pad1)" 
+   )
+   (Net "Net-(C4_13-Pad2)" 
+   )
+   (Net "Net-(C4_14-Pad1)" 
+   )
+   (Net "Net-(C4_14-Pad2)" 
+   )
+   (Net "Net-(C4_15-Pad1)" 
+   )
+   (Net "Net-(C4_15-Pad2)" 
+   )
+   (Net "Net-(C4_16-Pad1)" 
+   )
+   (Net "Net-(C4_16-Pad2)" 
+   )
+   (Net "Net-(C4_17-Pad1)" 
+   )
+   (Net "Net-(C4_17-Pad2)" 
+   )
+   (Net "Net-(C4_18-Pad1)" 
+   )
+   (Net "Net-(C4_18-Pad2)" 
+   )
+   (Net "Net-(C4_19-Pad1)" 
+   )
+   (Net "Net-(C4_19-Pad2)" 
+   )
+   (Net "Net-(C4_20-Pad1)" 
+   )
+   (Net "Net-(C4_20-Pad2)" 
+   )
+   (Net "Net-(C5_1-Pad1)" 
+   )
+   (Net "Net-(U3_1B--)" 
+   )
+   (Net "Net-(C5_2-Pad1)" 
+   )
+   (Net "Net-(U3_2B--)" 
+   )
+   (Net "Net-(C5_3-Pad1)" 
+   )
+   (Net "Net-(U3_3B--)" 
+   )
+   (Net "Net-(C5_4-Pad1)" 
+   )
+   (Net "Net-(U3_4B--)" 
+   )
+   (Net "Net-(C5_5-Pad1)" 
+   )
+   (Net "Net-(U3_5B--)" 
+   )
+   (Net "Net-(C5_6-Pad1)" 
+   )
+   (Net "Net-(U3_6B--)" 
+   )
+   (Net "Net-(C5_7-Pad1)" 
+   )
+   (Net "Net-(U3_7B--)" 
+   )
+   (Net "Net-(C5_8-Pad1)" 
+   )
+   (Net "Net-(U3_8B--)" 
+   )
+   (Net "Net-(C5_9-Pad1)" 
+   )
+   (Net "Net-(U3_9B--)" 
+   )
+   (Net "Net-(C5_10-Pad1)" 
+   )
+   (Net "Net-(U3_10B--)" 
+   )
+   (Net "Net-(C5_11-Pad1)" 
+   )
+   (Net "Net-(U3_11B--)" 
+   )
+   (Net "Net-(C5_12-Pad1)" 
+   )
+   (Net "Net-(U3_12B--)" 
+   )
+   (Net "Net-(C5_13-Pad1)" 
+   )
+   (Net "Net-(U3_13B--)" 
+   )
+   (Net "Net-(C5_14-Pad1)" 
+   )
+   (Net "Net-(U3_14B--)" 
+   )
+   (Net "Net-(C5_15-Pad1)" 
+   )
+   (Net "Net-(U3_15B--)" 
+   )
+   (Net "Net-(C5_16-Pad1)" 
+   )
+   (Net "Net-(U3_16B--)" 
+   )
+   (Net "Net-(C5_17-Pad1)" 
+   )
+   (Net "Net-(U3_17B--)" 
+   )
+   (Net "Net-(C5_18-Pad1)" 
+   )
+   (Net "Net-(U3_18B--)" 
+   )
+   (Net "Net-(C5_19-Pad1)" 
+   )
+   (Net "Net-(U3_19B--)" 
+   )
+   (Net "Net-(C5_20-Pad1)" 
+   )
+   (Net "Net-(U3_20B--)" 
+   )
+   (Net "Net-(C6_1-Pad1)" 
+   )
+   (Net "Net-(U4_1B--)" 
+   )
+   (Net "Net-(C6_2-Pad1)" 
+   )
+   (Net "Net-(U4_2B--)" 
+   )
+   (Net "Net-(C6_3-Pad1)" 
+   )
+   (Net "Net-(U4_3B--)" 
+   )
+   (Net "Net-(C6_4-Pad1)" 
+   )
+   (Net "Net-(U4_4B--)" 
+   )
+   (Net "Net-(C6_5-Pad1)" 
+   )
+   (Net "Net-(U4_5B--)" 
+   )
+   (Net "Net-(C6_6-Pad1)" 
+   )
+   (Net "Net-(U4_6B--)" 
+   )
+   (Net "Net-(C6_7-Pad1)" 
+   )
+   (Net "Net-(U4_7B--)" 
+   )
+   (Net "Net-(C6_8-Pad1)" 
+   )
+   (Net "Net-(U4_8B--)" 
+   )
+   (Net "Net-(C6_9-Pad1)" 
+   )
+   (Net "Net-(U4_9B--)" 
+   )
+   (Net "Net-(C6_10-Pad1)" 
+   )
+   (Net "Net-(U4_10B--)" 
+   )
+   (Net "Net-(C6_11-Pad1)" 
+   )
+   (Net "Net-(U4_11B--)" 
+   )
+   (Net "Net-(C6_12-Pad1)" 
+   )
+   (Net "Net-(U4_12B--)" 
+   )
+   (Net "Net-(C6_13-Pad1)" 
+   )
+   (Net "Net-(U4_13B--)" 
+   )
+   (Net "Net-(C6_14-Pad1)" 
+   )
+   (Net "Net-(U4_14B--)" 
+   )
+   (Net "Net-(C6_15-Pad1)" 
+   )
+   (Net "Net-(U4_15B--)" 
+   )
+   (Net "Net-(C6_16-Pad1)" 
+   )
+   (Net "Net-(U4_16B--)" 
+   )
+   (Net "Net-(C6_17-Pad1)" 
+   )
+   (Net "Net-(U4_17B--)" 
+   )
+   (Net "Net-(C6_18-Pad1)" 
+   )
+   (Net "Net-(U4_18B--)" 
+   )
+   (Net "Net-(C6_19-Pad1)" 
+   )
+   (Net "Net-(U4_19B--)" 
+   )
+   (Net "Net-(C6_20-Pad1)" 
+   )
+   (Net "Net-(U4_20B--)" 
+   )
+   (Net /LabJack_Connector/AUX1 
+   )
+   (Net /LabJack_Connector/AUX2 
+   )
+   (Net /LabJack_Connector/AUX3 
+   )
+   (Net /LabJack_Connector/AUX4 
+   )
+   (Net /LabJack_Connector/AUX5 
+   )
+   (Net /LabJack_Connector/AUX6 
+   )
+   (Net /LabJack_Connector/AUX7 
+   )
+   (Net /LabJack_Connector/AUX8 
+   )
+   (Net /LabJack_Connector/AUX9 
+   )
+   (Net /LabJack_Connector/AUX10 
+   )
+   (Net /LabJack_Connector/AUX11 
+   )
+   (Net /LabJack_Connector/AUX12 
+   )
+   (Net /LabJack_Connector/AUX13 
+   )
+   (Net /LabJack_Connector/AUX14 
+   )
+   (Net /LabJack_Connector/AUX15 
+   )
+   (Net /LabJack_Connector/AUX16 
+   )
+   (Net /LabJack_Connector/AUX17 
+   )
+   (Net /LabJack_Connector/AUX18 
+   )
+   (Net /LabJack_Connector/AUX19 
+   )
+   (Net /LabJack_Connector/AUX20 
+   )
+   (Net /LabJack_Connector/SEN1 
+   )
+   (Net /LabJack_Connector/SEN2 
+   )
+   (Net /LabJack_Connector/SEN3 
+   )
+   (Net /LabJack_Connector/SEN4 
+   )
+   (Net /LabJack_Connector/SEN5 
+   )
+   (Net /LabJack_Connector/SEN6 
+   )
+   (Net /LabJack_Connector/SEN7 
+   )
+   (Net /LabJack_Connector/SEN8 
+   )
+   (Net /LabJack_Connector/SEN9 
+   )
+   (Net /LabJack_Connector/SEN10 
+   )
+   (Net /LabJack_Connector/SEN11 
+   )
+   (Net /LabJack_Connector/SEN12 
+   )
+   (Net /LabJack_Connector/SEN13 
+   )
+   (Net /LabJack_Connector/SEN14 
+   )
+   (Net /LabJack_Connector/SEN15 
+   )
+   (Net /LabJack_Connector/SEN16 
+   )
+   (Net /LabJack_Connector/SEN17 
+   )
+   (Net /LabJack_Connector/SEN18 
+   )
+   (Net /LabJack_Connector/SEN19 
+   )
+   (Net /LabJack_Connector/SEN20 
+   )
+   (Net /EEPROM/DAT 
+   )
+   (Net /EEPROM/CLK 
+   )
+   (Net "unconnected-(J2-Pad3)" 
+   )
+   (Net "unconnected-(J2-Pad4)" 
+   )
+   (Net "unconnected-(J2-Pad7)" 
+   )
+   (Net "unconnected-(J2-Pad9)" 
+   )
+   (Net "Net-(LED1-Pad1)" 
+   )
+   (Net "Net-(P1-REF)" 
+   )
+   (Net "Net-(P1-SEN)" 
+   )
+   (Net "Net-(P1-CNT)" 
+   )
+   (Net "Net-(P1-AUX)" 
+   )
+   (Net "Net-(P2-REF)" 
+   )
+   (Net "Net-(P2-SEN)" 
+   )
+   (Net "Net-(P2-CNT)" 
+   )
+   (Net "Net-(P2-AUX)" 
+   )
+   (Net "Net-(P3-REF)" 
+   )
+   (Net "Net-(P3-SEN)" 
+   )
+   (Net "Net-(P3-CNT)" 
+   )
+   (Net "Net-(P3-AUX)" 
+   )
+   (Net "Net-(P4-REF)" 
+   )
+   (Net "Net-(P4-SEN)" 
+   )
+   (Net "Net-(P4-CNT)" 
+   )
+   (Net "Net-(P4-AUX)" 
+   )
+   (Net "Net-(P5-REF)" 
+   )
+   (Net "Net-(P5-SEN)" 
+   )
+   (Net "Net-(P5-CNT)" 
+   )
+   (Net "Net-(P5-AUX)" 
+   )
+   (Net "Net-(P6-REF)" 
+   )
+   (Net "Net-(P6-SEN)" 
+   )
+   (Net "Net-(P6-CNT)" 
+   )
+   (Net "Net-(P6-AUX)" 
+   )
+   (Net "Net-(P7-REF)" 
+   )
+   (Net "Net-(P7-SEN)" 
+   )
+   (Net "Net-(P7-CNT)" 
+   )
+   (Net "Net-(P7-AUX)" 
+   )
+   (Net "Net-(P8-REF)" 
+   )
+   (Net "Net-(P8-SEN)" 
+   )
+   (Net "Net-(P8-CNT)" 
+   )
+   (Net "Net-(P8-AUX)" 
+   )
+   (Net "Net-(P9-REF)" 
+   )
+   (Net "Net-(P9-SEN)" 
+   )
+   (Net "Net-(P9-CNT)" 
+   )
+   (Net "Net-(P9-AUX)" 
+   )
+   (Net "Net-(P10-REF)" 
+   )
+   (Net "Net-(P10-SEN)" 
+   )
+   (Net "Net-(P10-CNT)" 
+   )
+   (Net "Net-(P10-AUX)" 
+   )
+   (Net "Net-(P11-REF)" 
+   )
+   (Net "Net-(P11-SEN)" 
+   )
+   (Net "Net-(P11-CNT)" 
+   )
+   (Net "Net-(P11-AUX)" 
+   )
+   (Net "Net-(P12-REF)" 
+   )
+   (Net "Net-(P12-SEN)" 
+   )
+   (Net "Net-(P12-CNT)" 
+   )
+   (Net "Net-(P12-AUX)" 
+   )
+   (Net "Net-(P13-REF)" 
+   )
+   (Net "Net-(P13-SEN)" 
+   )
+   (Net "Net-(P13-CNT)" 
+   )
+   (Net "Net-(P13-AUX)" 
+   )
+   (Net "Net-(P14-REF)" 
+   )
+   (Net "Net-(P14-SEN)" 
+   )
+   (Net "Net-(P14-CNT)" 
+   )
+   (Net "Net-(P14-AUX)" 
+   )
+   (Net "Net-(P15-REF)" 
+   )
+   (Net "Net-(P15-SEN)" 
+   )
+   (Net "Net-(P15-CNT)" 
+   )
+   (Net "Net-(P15-AUX)" 
+   )
+   (Net "Net-(P16-REF)" 
+   )
+   (Net "Net-(P16-SEN)" 
+   )
+   (Net "Net-(P16-CNT)" 
+   )
+   (Net "Net-(P16-AUX)" 
+   )
+   (Net "Net-(P17-REF)" 
+   )
+   (Net "Net-(P17-SEN)" 
+   )
+   (Net "Net-(P17-CNT)" 
+   )
+   (Net "Net-(P17-AUX)" 
+   )
+   (Net "Net-(P18-REF)" 
+   )
+   (Net "Net-(P18-SEN)" 
+   )
+   (Net "Net-(P18-CNT)" 
+   )
+   (Net "Net-(P18-AUX)" 
+   )
+   (Net "Net-(P19-REF)" 
+   )
+   (Net "Net-(P19-SEN)" 
+   )
+   (Net "Net-(P19-CNT)" 
+   )
+   (Net "Net-(P19-AUX)" 
+   )
+   (Net "Net-(P20-REF)" 
+   )
+   (Net "Net-(P20-SEN)" 
+   )
+   (Net "Net-(P20-CNT)" 
+   )
+   (Net "Net-(P20-AUX)" 
+   )
+   (Net "Net-(U2-FB)" 
+   )
+   (Net "Net-(R4_1-Pad2)" 
+   )
+   (Net "Net-(R4_2-Pad2)" 
+   )
+   (Net "Net-(R4_3-Pad2)" 
+   )
+   (Net "Net-(R4_4-Pad2)" 
+   )
+   (Net "Net-(R4_5-Pad2)" 
+   )
+   (Net "Net-(R4_6-Pad2)" 
+   )
+   (Net "Net-(R4_7-Pad2)" 
+   )
+   (Net "Net-(R4_8-Pad2)" 
+   )
+   (Net "Net-(R4_9-Pad2)" 
+   )
+   (Net "Net-(R4_10-Pad2)" 
+   )
+   (Net "Net-(R4_11-Pad2)" 
+   )
+   (Net "Net-(R4_12-Pad2)" 
+   )
+   (Net "Net-(R4_13-Pad2)" 
+   )
+   (Net "Net-(R4_14-Pad2)" 
+   )
+   (Net "Net-(R4_15-Pad2)" 
+   )
+   (Net "Net-(R4_16-Pad2)" 
+   )
+   (Net "Net-(R4_17-Pad2)" 
+   )
+   (Net "Net-(R4_18-Pad2)" 
+   )
+   (Net "Net-(R4_19-Pad2)" 
+   )
+   (Net "Net-(R4_20-Pad2)" 
+   )
+   (Net "Net-(R5_1-Pad2)" 
+   )
+   (Net "Net-(R5_2-Pad2)" 
+   )
+   (Net "Net-(R5_3-Pad2)" 
+   )
+   (Net "Net-(R5_4-Pad2)" 
+   )
+   (Net "Net-(R5_5-Pad2)" 
+   )
+   (Net "Net-(R5_6-Pad2)" 
+   )
+   (Net "Net-(R5_7-Pad2)" 
+   )
+   (Net "Net-(R5_8-Pad2)" 
+   )
+   (Net "Net-(R5_9-Pad2)" 
+   )
+   (Net "Net-(R5_10-Pad2)" 
+   )
+   (Net "Net-(R5_11-Pad2)" 
+   )
+   (Net "Net-(R5_12-Pad2)" 
+   )
+   (Net "Net-(R5_13-Pad2)" 
+   )
+   (Net "Net-(R5_14-Pad2)" 
+   )
+   (Net "Net-(R5_15-Pad2)" 
+   )
+   (Net "Net-(R5_16-Pad2)" 
+   )
+   (Net "Net-(R5_17-Pad2)" 
+   )
+   (Net "Net-(R5_18-Pad2)" 
+   )
+   (Net "Net-(R5_19-Pad2)" 
+   )
+   (Net "Net-(R5_20-Pad2)" 
+   )
+   (Net "Net-(R6_1-Pad2)" 
+   )
+   (Net "Net-(R6_2-Pad2)" 
+   )
+   (Net "Net-(R6_3-Pad2)" 
+   )
+   (Net "Net-(R6_4-Pad2)" 
+   )
+   (Net "Net-(R6_5-Pad2)" 
+   )
+   (Net "Net-(R6_6-Pad2)" 
+   )
+   (Net "Net-(R6_7-Pad2)" 
+   )
+   (Net "Net-(R6_8-Pad2)" 
+   )
+   (Net "Net-(R6_9-Pad2)" 
+   )
+   (Net "Net-(R6_10-Pad2)" 
+   )
+   (Net "Net-(R6_11-Pad2)" 
+   )
+   (Net "Net-(R6_12-Pad2)" 
+   )
+   (Net "Net-(R6_13-Pad2)" 
+   )
+   (Net "Net-(R6_14-Pad2)" 
+   )
+   (Net "Net-(R6_15-Pad2)" 
+   )
+   (Net "Net-(R6_16-Pad2)" 
+   )
+   (Net "Net-(R6_17-Pad2)" 
+   )
+   (Net "Net-(R6_18-Pad2)" 
+   )
+   (Net "Net-(R6_19-Pad2)" 
+   )
+   (Net "Net-(R6_20-Pad2)" 
+   )
+   (Net "Net-(R7_1-Pad1)" 
+   )
+   (Net "Net-(R7_2-Pad1)" 
+   )
+   (Net "Net-(R7_3-Pad1)" 
+   )
+   (Net "Net-(R7_4-Pad1)" 
+   )
+   (Net "Net-(R7_5-Pad1)" 
+   )
+   (Net "Net-(R7_6-Pad1)" 
+   )
+   (Net "Net-(R7_7-Pad1)" 
+   )
+   (Net "Net-(R7_8-Pad1)" 
+   )
+   (Net "Net-(R7_9-Pad1)" 
+   )
+   (Net "Net-(R7_10-Pad1)" 
+   )
+   (Net "Net-(R7_11-Pad1)" 
+   )
+   (Net "Net-(R7_12-Pad1)" 
+   )
+   (Net "Net-(R7_13-Pad1)" 
+   )
+   (Net "Net-(R7_14-Pad1)" 
+   )
+   (Net "Net-(R7_15-Pad1)" 
+   )
+   (Net "Net-(R7_16-Pad1)" 
+   )
+   (Net "Net-(R7_17-Pad1)" 
+   )
+   (Net "Net-(R7_18-Pad1)" 
+   )
+   (Net "Net-(R7_19-Pad1)" 
+   )
+   (Net "Net-(R7_20-Pad1)" 
+   )
+   (Net "Net-(U4_1A--)" 
+   )
+   (Net "Net-(U4_2A--)" 
+   )
+   (Net "Net-(U4_3A--)" 
+   )
+   (Net "Net-(U4_4A--)" 
+   )
+   (Net "Net-(U4_5A--)" 
+   )
+   (Net "Net-(U4_6A--)" 
+   )
+   (Net "Net-(U4_7A--)" 
+   )
+   (Net "Net-(U4_8A--)" 
+   )
+   (Net "Net-(U4_9A--)" 
+   )
+   (Net "Net-(U4_10A--)" 
+   )
+   (Net "Net-(U4_11A--)" 
+   )
+   (Net "Net-(U4_12A--)" 
+   )
+   (Net "Net-(U4_13A--)" 
+   )
+   (Net "Net-(U4_14A--)" 
+   )
+   (Net "Net-(U4_15A--)" 
+   )
+   (Net "Net-(U4_16A--)" 
+   )
+   (Net "Net-(U4_17A--)" 
+   )
+   (Net "Net-(U4_18A--)" 
+   )
+   (Net "Net-(U4_19A--)" 
+   )
+   (Net "Net-(U4_20A--)" 
+   )
+   (Net "Net-(U4_1A-+)" 
+   )
+   (Net "Net-(U4_2A-+)" 
+   )
+   (Net "Net-(U4_3A-+)" 
+   )
+   (Net "Net-(U4_4A-+)" 
+   )
+   (Net "Net-(U4_5A-+)" 
+   )
+   (Net "Net-(U4_6A-+)" 
+   )
+   (Net "Net-(U4_7A-+)" 
+   )
+   (Net "Net-(U4_8A-+)" 
+   )
+   (Net "Net-(U4_9A-+)" 
+   )
+   (Net "Net-(U4_10A-+)" 
+   )
+   (Net "Net-(U4_11A-+)" 
+   )
+   (Net "Net-(U4_12A-+)" 
+   )
+   (Net "Net-(U4_13A-+)" 
+   )
+   (Net "Net-(U4_14A-+)" 
+   )
+   (Net "Net-(U4_15A-+)" 
+   )
+   (Net "Net-(U4_16A-+)" 
+   )
+   (Net "Net-(U4_17A-+)" 
+   )
+   (Net "Net-(U4_18A-+)" 
+   )
+   (Net "Net-(U4_19A-+)" 
+   )
+   (Net "Net-(U4_20A-+)" 
+   )
+   (Net "Net-(U3_1A-+)" 
+   )
+   (Net "Net-(U3_2A-+)" 
+   )
+   (Net "Net-(U3_3A-+)" 
+   )
+   (Net "Net-(U3_4A-+)" 
+   )
+   (Net "Net-(U3_5A-+)" 
+   )
+   (Net "Net-(U3_6A-+)" 
+   )
+   (Net "Net-(U3_7A-+)" 
+   )
+   (Net "Net-(U3_8A-+)" 
+   )
+   (Net "Net-(U3_9A-+)" 
+   )
+   (Net "Net-(U3_10A-+)" 
+   )
+   (Net "Net-(U3_11A-+)" 
+   )
+   (Net "Net-(U3_12A-+)" 
+   )
+   (Net "Net-(U3_13A-+)" 
+   )
+   (Net "Net-(U3_14A-+)" 
+   )
+   (Net "Net-(U3_15A-+)" 
+   )
+   (Net "Net-(U3_16A-+)" 
+   )
+   (Net "Net-(U3_17A-+)" 
+   )
+   (Net "Net-(U3_18A-+)" 
+   )
+   (Net "Net-(U3_19A-+)" 
+   )
+   (Net "Net-(U3_20A-+)" 
+   )
+   (Net "Net-(U3_1B-+)" 
+   )
+   (Net "Net-(U3_2B-+)" 
+   )
+   (Net "Net-(U3_3B-+)" 
+   )
+   (Net "Net-(U3_4B-+)" 
+   )
+   (Net "Net-(U3_5B-+)" 
+   )
+   (Net "Net-(U3_6B-+)" 
+   )
+   (Net "Net-(U3_7B-+)" 
+   )
+   (Net "Net-(U3_8B-+)" 
+   )
+   (Net "Net-(U3_9B-+)" 
+   )
+   (Net "Net-(U3_10B-+)" 
+   )
+   (Net "Net-(U3_11B-+)" 
+   )
+   (Net "Net-(U3_12B-+)" 
+   )
+   (Net "Net-(U3_13B-+)" 
+   )
+   (Net "Net-(U3_14B-+)" 
+   )
+   (Net "Net-(U3_15B-+)" 
+   )
+   (Net "Net-(U3_16B-+)" 
+   )
+   (Net "Net-(U3_17B-+)" 
+   )
+   (Net "Net-(U3_18B-+)" 
+   )
+   (Net "Net-(U3_19B-+)" 
+   )
+   (Net "Net-(U3_20B-+)" 
+   )
+   (Net "Net-(U4_1B-+)" 
+   )
+   (Net "Net-(U4_2B-+)" 
+   )
+   (Net "Net-(U4_3B-+)" 
+   )
+   (Net "Net-(U4_4B-+)" 
+   )
+   (Net "Net-(U4_5B-+)" 
+   )
+   (Net "Net-(U4_6B-+)" 
+   )
+   (Net "Net-(U4_7B-+)" 
+   )
+   (Net "Net-(U4_8B-+)" 
+   )
+   (Net "Net-(U4_9B-+)" 
+   )
+   (Net "Net-(U4_10B-+)" 
+   )
+   (Net "Net-(U4_11B-+)" 
+   )
+   (Net "Net-(U4_12B-+)" 
+   )
+   (Net "Net-(U4_13B-+)" 
+   )
+   (Net "Net-(U4_14B-+)" 
+   )
+   (Net "Net-(U4_15B-+)" 
+   )
+   (Net "Net-(U4_16B-+)" 
+   )
+   (Net "Net-(U4_17B-+)" 
+   )
+   (Net "Net-(U4_18B-+)" 
+   )
+   (Net "Net-(U4_19B-+)" 
+   )
+   (Net "Net-(U4_20B-+)" 
+   )
+   (Net "Net-(R15_1-Pad2)" 
+   )
+   (Net "Net-(R15_2-Pad2)" 
+   )
+   (Net "Net-(R15_3-Pad2)" 
+   )
+   (Net "Net-(R15_4-Pad2)" 
+   )
+   (Net "Net-(R15_5-Pad2)" 
+   )
+   (Net "Net-(R15_6-Pad2)" 
+   )
+   (Net "Net-(R15_7-Pad2)" 
+   )
+   (Net "Net-(R15_8-Pad2)" 
+   )
+   (Net "Net-(R15_9-Pad2)" 
+   )
+   (Net "Net-(R15_10-Pad2)" 
+   )
+   (Net "Net-(R15_11-Pad2)" 
+   )
+   (Net "Net-(R15_12-Pad2)" 
+   )
+   (Net "Net-(R15_13-Pad2)" 
+   )
+   (Net "Net-(R15_14-Pad2)" 
+   )
+   (Net "Net-(R15_15-Pad2)" 
+   )
+   (Net "Net-(R15_16-Pad2)" 
+   )
+   (Net "Net-(R15_17-Pad2)" 
+   )
+   (Net "Net-(R15_18-Pad2)" 
+   )
+   (Net "Net-(R15_19-Pad2)" 
+   )
+   (Net "Net-(R15_20-Pad2)" 
+   )
+   (Net "Net-(R16_1-Pad2)" 
+   )
+   (Net "Net-(R16_2-Pad2)" 
+   )
+   (Net "Net-(R16_3-Pad2)" 
+   )
+   (Net "Net-(R16_4-Pad2)" 
+   )
+   (Net "Net-(R16_5-Pad2)" 
+   )
+   (Net "Net-(R16_6-Pad2)" 
+   )
+   (Net "Net-(R16_7-Pad2)" 
+   )
+   (Net "Net-(R16_8-Pad2)" 
+   )
+   (Net "Net-(R16_9-Pad2)" 
+   )
+   (Net "Net-(R16_10-Pad2)" 
+   )
+   (Net "Net-(R16_11-Pad2)" 
+   )
+   (Net "Net-(R16_12-Pad2)" 
+   )
+   (Net "Net-(R16_13-Pad2)" 
+   )
+   (Net "Net-(R16_14-Pad2)" 
+   )
+   (Net "Net-(R16_15-Pad2)" 
+   )
+   (Net "Net-(R16_16-Pad2)" 
+   )
+   (Net "Net-(R16_17-Pad2)" 
+   )
+   (Net "Net-(R16_18-Pad2)" 
+   )
+   (Net "Net-(R16_19-Pad2)" 
+   )
+   (Net "Net-(R16_20-Pad2)" 
+   )
+   (Net "unconnected-(U1-N_C-Pad4)" 
+   )
+   (Net "Net-(U3_1A--)" 
+   )
+   (Net "Net-(U3_2A--)" 
+   )
+   (Net "Net-(U3_3A--)" 
+   )
+   (Net "Net-(U3_4A--)" 
+   )
+   (Net "Net-(U3_5A--)" 
+   )
+   (Net "Net-(U3_6A--)" 
+   )
+   (Net "Net-(U3_7A--)" 
+   )
+   (Net "Net-(U3_8A--)" 
+   )
+   (Net "Net-(U3_9A--)" 
+   )
+   (Net "Net-(U3_10A--)" 
+   )
+   (Net "Net-(U3_11A--)" 
+   )
+   (Net "Net-(U3_12A--)" 
+   )
+   (Net "Net-(U3_13A--)" 
+   )
+   (Net "Net-(U3_14A--)" 
+   )
+   (Net "Net-(U3_15A--)" 
+   )
+   (Net "Net-(U3_16A--)" 
+   )
+   (Net "Net-(U3_17A--)" 
+   )
+   (Net "Net-(U3_18A--)" 
+   )
+   (Net "Net-(U3_19A--)" 
+   )
+   (Net "Net-(U3_20A--)" 
+   )
+  )
+ )

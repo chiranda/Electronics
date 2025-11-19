@@ -1,0 +1,26 @@
+Drill report for Air quality project.kicad_pcb
+Created on 8/30/2023 10:53:31 AM
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'Air quality project-PTH-drl.gbr' contains
+    plated through holes:
+    =============================================================
+    T1  0.400mm  0.0157"  (181 holes)
+    T2  0.889mm  0.0350"  (50 holes)
+    T3  1.000mm  0.0394"  (3 holes)  (with 3 slots)
+    T4  1.803mm  0.0710"  (80 holes)
+
+    Total plated holes count 314
+
+
+Drill file 'Air quality project-NPTH-drl.gbr' contains
+    unplated through holes:
+    =============================================================
+    T1  4.300mm  0.1693"  (4 holes)
+
+    Total unplated holes count 4
