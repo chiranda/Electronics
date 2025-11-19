@@ -1,0 +1,28 @@
+# Backup and temp files
+*.bak
+*.tmp
+*.old
+*.swp
+
+# Autosave/cache
+*.kicad_pro
+*.kicad_wks
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*.kicad_pcb-bak.*
+*.kicad_sch-bak.*
+
+# Build/output files
+*.gbr
+*.drl
+*.bbl
+*.stp
+*.step
+*.3dshapes/
+*.dcm
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
